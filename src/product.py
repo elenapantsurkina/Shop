@@ -1,8 +1,8 @@
 class Product:
     name: str
     description: str
-    price: round(1)
-    quatity: int
+    price: (float, 1)
+    quantity: int
     product_count = 0
 
     def __init__(self, name, description, price, quantity):

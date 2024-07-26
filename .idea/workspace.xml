@@ -4,13 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="948464cf-80a0-4873-8400-4646ac772e72" name="Changes" comment="созданы классы в модулях product и category">
-      <change afterPath="$PROJECT_DIR$/tests/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_category.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_product.py" afterDir="false" />
+    <list default="true" id="948464cf-80a0-4873-8400-4646ac772e72" name="Changes" comment="созданы тесты в модулях product и category">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/category.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/category.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/product.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/product.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_category.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_category.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_product.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_product.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +48,7 @@
     &quot;Python.category.executor&quot;: &quot;Run&quot;,
     &quot;Python.main.executor&quot;: &quot;Run&quot;,
     &quot;Python.product.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test_category.executor&quot;: &quot;Run&quot;,
     &quot;Python.test_product.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;homework__14__1&quot;
@@ -166,20 +169,29 @@
       <option name="project" value="LOCAL" />
       <updated>1721924949497</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="созданы тесты в модулях product и category">
+      <option name="closed" value="true" />
+      <created>1721972757364</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1721972757364</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="создан новый проект" />
     <MESSAGE value="созданы классы в модулях product и category" />
-    <option name="LAST_COMMIT_MESSAGE" value="созданы классы в модулях product и category" />
+    <MESSAGE value="созданы тесты в модулях product и category" />
+    <option name="LAST_COMMIT_MESSAGE" value="созданы тесты в модулях product и category" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/tests/test_product.py</url>
-          <line>1</line>
+          <line>2</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
