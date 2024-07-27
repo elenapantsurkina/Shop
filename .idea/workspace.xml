@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="948464cf-80a0-4873-8400-4646ac772e72" name="Changes" comment="создана ветка под урок 14_2">
+    <list default="true" id="948464cf-80a0-4873-8400-4646ac772e72" name="Changes" comment="реализованы задачи урока 14_2 в   в директории src модулях category и product">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/category.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/category.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/product.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/product.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_product.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_product.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +49,7 @@
     &quot;git-widget-placeholder&quot;: &quot;homework__14__2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.category">
+  <component name="RunManager">
     <configuration name="category" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Shop" />
       <option name="ENV_FILES" value="" />
@@ -180,7 +180,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722068362480</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="реализованы задачи урока 14_2 в   в директории src модулях category и product">
+      <option name="closed" value="true" />
+      <created>1722092192076</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1722092192076</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -188,17 +196,7 @@
     <MESSAGE value="созданы классы в модулях product и category" />
     <MESSAGE value="созданы тесты в модулях product и category" />
     <MESSAGE value="создана ветка под урок 14_2" />
-    <option name="LAST_COMMIT_MESSAGE" value="создана ветка под урок 14_2" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/tests/test_product.py</url>
-          <line>2</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="реализованы задачи урока 14_2 в   в директории src модулях category и product" />
+    <option name="LAST_COMMIT_MESSAGE" value="реализованы задачи урока 14_2 в   в директории src модулях category и product" />
   </component>
 </project>
