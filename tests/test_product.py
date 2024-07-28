@@ -19,7 +19,7 @@ def test_new_product(product_dict):
 
 def test_product_info_price(capsys, product):
     product.price = -100
-    message = capsys.redouterr()
+    message = capsys.readouterr()
     assert message.out.strip() == "Цена не должна быть нулевая или отрицательная"
     product.price = 100
     assert product.price == 100
