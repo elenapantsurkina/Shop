@@ -13,7 +13,7 @@ class Product:
 
     @classmethod
     def new_product(cls, new_product: dict):
-        name = new_product["name"]
+        name = new_product["name"]     # а можно и через get name=new_product.get("name")
         description = new_product["description"]
         price = new_product["price"]
         quantity = new_product["quantity"]
