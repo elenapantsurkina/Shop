@@ -11,7 +11,7 @@ class Category:
     def __init__(self, name, description, products=None):
         self.name = name
         self.description = description
-        self.__products = products if products else []      # сделали категорию приватной
+        self.__products = products if products else []  # сделали категорию приватной
 
         Category.category_count += 1
         Category.product_count += len(products) if products else 0
@@ -20,9 +20,16 @@ class Category:
         self.__products.append(product)
         Category.product_count += 1
 
+    def total_product(self):
+        return sum(product.quantity for product in self.__products)
+
+    def __str__(self):
+        total_quatity = self.total_product()
+        return f"{self.name}, количество продуктов: {total_quatity} шт."
+
     @property
-    def products(self):       # геттер выводит список товаров в виде строк в заданном формате
+    def products(self):  # геттер выводит список товаров в виде строк в заданном формате
         products_str = ""
         for product in self.__products:
-            products_str += f"{product.name}, {product.price} руб. Остаток {product.quantity} шт.\n"
+            products_str += f"{str(product)}\n"
         return products_str
