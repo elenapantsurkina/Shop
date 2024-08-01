@@ -8,7 +8,7 @@ class Product:
     def __init__(self, name, description, price, quantity):
         self.name = name
         self.description = description
-        self.__price = price     # сделали атрибут приватным
+        self.__price = price  # сделали атрибут приватным
         self.quantity = quantity
 
     def __str__(self):
@@ -19,7 +19,7 @@ class Product:
 
     @classmethod
     def new_product(cls, new_product: dict):
-        name = new_product["name"]     # а можно и через get name=new_product.get("name")
+        name = new_product["name"]  # а можно и через get name=new_product.get("name")
         description = new_product["description"]
         price = new_product["price"]
         quantity = new_product["quantity"]
