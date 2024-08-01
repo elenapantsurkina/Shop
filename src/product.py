@@ -11,6 +11,12 @@ class Product:
         self.__price = price     # сделали атрибут приватным
         self.quantity = quantity
 
+    def __str__(self):
+        return f"{self.name}, {self.__price} руб. Остаток: {self.quantity} шт."
+
+    def __add__(self, other):
+        return (self.__price * self.quantity) + (other.__price * other.quantity)
+
     @classmethod
     def new_product(cls, new_product: dict):
         name = new_product["name"]     # а можно и через get name=new_product.get("name")
