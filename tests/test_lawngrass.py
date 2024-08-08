@@ -11,3 +11,7 @@ def test_lawngrass_init(lawngrass1):
     assert lawngrass1.country == "Россия"
     assert lawngrass1.germination_period == "7 дней"
     assert lawngrass1.color == "Зеленый"
+
+
+def test_lawgrass_sum(lawngrass1, lawngrass2):
+    assert lawngrass1 + lawngrass2 == 16750.0

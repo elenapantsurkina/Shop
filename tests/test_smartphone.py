@@ -12,3 +12,7 @@ def test_smartphone_init(smartphone2):
     assert smartphone2.model == "15"
     assert smartphone2.memory == 512
     assert smartphone2.color == "Gray space"
+
+
+def test_smartphone_sum(smartphone1, smartphone2):
+    assert smartphone1 + smartphone2 == 2580000.0
