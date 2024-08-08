@@ -11,8 +11,6 @@ class Smartphone(Product):
         self.color = color
 
 
-    def price(self):
-        return self.__price
 
     def __add__(self, other):
         if isinstance(other, Smartphone):
