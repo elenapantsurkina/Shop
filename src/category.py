@@ -1,5 +1,7 @@
 from src.product import Product
 
+from src.smartphone import Smartphone
+
 
 class Category:
     name: str
@@ -17,8 +19,11 @@ class Category:
         Category.product_count += len(products) if products else 0
 
     def add_product(self, product: Product):
-        self.__products.append(product)
-        Category.product_count += 1
+        if isinstance(product, Product):
+            self.__products.append(product)
+            Category.product_count += 1
+        else:
+            raise TypeError
 
     def total_product(self):
         return sum(product.quantity for product in self.__products)
