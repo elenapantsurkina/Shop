@@ -1,5 +1,3 @@
-
-
 from src.smartphone import Smartphone
 
 
