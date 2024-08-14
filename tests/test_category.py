@@ -1,6 +1,7 @@
 import pytest
-from src.product import Product
+
 from src.category import Category
+from src.product import Product
 
 
 def test_category_init(first_category, second_category):
@@ -53,6 +54,7 @@ def test_products_property():
     products_str = category.products
     assert "Samsung Galaxy S23 Ultra, 180000.0 руб. Остаток: 5 шт." in products_str
     assert "Iphone 15, 210000.0 руб. Остаток: 8 шт." in products_str
+
 
 def test_middle_price(first_category, category_without_product):
     assert first_category.middle_price() == 111629.62962962964
