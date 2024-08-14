@@ -1,11 +1,9 @@
 import pytest
 
-from src.product import Product
 from src.category import Category
-
-
-from src.smartphone import Smartphone
 from src.lawngrass import LawnGrass
+from src.product import Product
+from src.smartphone import Smartphone
 
 
 @pytest.fixture
@@ -75,3 +73,8 @@ def lawngrass1():
 @pytest.fixture
 def lawngrass2():
     return LawnGrass("Газонная трава 2", "Выносливая трава", 450.0, 15, "США", "5 дней", "Темно-зеленый")
+
+
+@pytest.fixture
+def category_without_product():
+    return Category(name="Пылесосы", description="Пылесосы бытовые", products=[])
